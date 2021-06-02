@@ -13,10 +13,14 @@
             - common classes
             - class module component
             -class modifier
+            -component child
         2 CUSTOM FONT
         3 UNITS
         4 ADAPTIVE MOBILE FIRST
         MOBILE------------------------------
+        breakponts tactics  
+            -when needed it
+            -
         5 RESPONSIVE IMG 
         6 META TAGS
         7 CALC CSS
@@ -24,37 +28,56 @@
 
 
     <section id="news" class="container">
-        <header>
-            <h1>Fresh news</h1>
-            <h2> We keep you informed!</h2>
+        <header class="header-main">
+            <h1 class="header-main__title">Fresh news</h1>
+            <h2 class="header-main__subtitle"> We keep you informed!</h2>
         </header>
-        <div>
-            <article>
+        <div class="content-main">
+
+            <div class="content-main__news-wrapper">
+            <h2 class="news-wrapper__label">Fetured</h2>
+
+            <article class="content-main__news">
                 <h2>First Article</h2>
                 <img src="img/img1.jpg" alt="img">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad recusandae obcaecati voluptatum, maxime odit a illum suscipit aliquid impedit. Mollitia, nobis quia obcaecati officia ad consequatur facere maiores saepe sequi.</p>
                 <p>Sed quasi omnis dolorum enim laborum iusto tempore? Quae sit consequatur eaque eveniet fugiat, voluptates nostrum quis quia, minima corrupti est consectetur tempora ad, quam maxime iste architecto. Ea, sed.</p>
-                <p>
+                <p class="news__links">
+                    <!-- find somethin like span-->
                     <span>2020.06.09</span>
                     <a href="">read more...</a>
                 </p>
             </article>
-            <article>
+            </div>
+
+            <article class="content-main__news">
                 <h3>Second news</h3>
                 <img src="img/img2.jpg" alt="img">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci dolorum facilis quo excepturi inventore odit libero, vero quam vitae aliquam, reprehenderit, illum sit ex eum est cumque suscipit facere laudantium?</p>
                 <p>Dicta autem ab aut cumque esse aspernatur saepe nesciunt ducimus quod non eligendi sequi, sit odio doloribus placeat voluptas ex asperiores mollitia repellendus, maxime dolores possimus? Laboriosam accusantium illum eligendi.</p>
+                <p class="news__links">
+                    <span>2020.06.09</span>
+                    <a href="">read more...</a>
+                </p>
+
             </article>
-            <article>
+
+            <article class="content-main__news">
                 <h3>Three Article</h3>
                 <img src="img/img3.jpg" alt="img">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum sunt possimus dicta laboriosam facere! Sunt rerum maiores voluptatem adipisci saepe voluptates corporis distinctio nam veniam doloremque. Temporibus, quasi. Quam, cumque?</p>
                 <p>Repellendus molestiae pariatur distinctio repudiandae vel nulla! Minima, quasi. Nobis, recusandae? At saepe a autem sint animi aliquid non eum. Iusto corporis sunt doloribus, facilis nobis quam consequuntur similique molestias!</p>
+                <p class="news__links">
+                    <span>2020.06.09</span>
+                    <a href="">read more...</a>
+                </p>
+            
             </article>
+
         </div>
 
         <footer>
-            <small>to subscribr hit <a href="">link</a> <small>
+            <small>to subscribr hit <a href="">link</a><small></small>
 
         </footer>
     </section>

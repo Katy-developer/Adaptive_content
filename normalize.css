@@ -104,6 +104,12 @@ strong {
 	font-weight: bolder;
 }
 
+a {
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
 /**
 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 2. Correct the odd 'em' font sizing in all browsers.
